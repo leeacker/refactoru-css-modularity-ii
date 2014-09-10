@@ -68,3 +68,120 @@
 	padding-bottom: 5px;
 	font-size: 14px;
 }
+.nav-bar {
+	/*width: 600px;*/
+	display: inline-block;
+	border-radius: 5px;
+	border: 2px solid #FFA8A8;
+	background-color: #FFA8A8;
+	overflow: hidden;
+}
+.nav-bar ul {
+	padding: 0;
+}
+.nav-bar ul li{
+	display: inline-block;
+	background-color: #FFA8A8;
+	/*width: auto;*/
+	padding: 10px 30px ;
+	float: left;
+}
+.nav-bar ul li a{
+	color: white;
+	text-decoration: none;
+}
+.nav-bar ul li:hover{
+	background-color: #D63333;
+	border-top-color: #D63333;
+	border-bottom-color: #D63333;
+}
+.pagination {
+	overflow: hidden;
+	/*width: 500px;*/
+	list-style: none;
+	float: left;
+	padding-left: 0;
+}
+.pagination li {
+	float: left;
+	width: auto;
+	padding: 8px 8px;
+}
+.pagination li a {
+	color: #FFA8A8;
+	text-decoration: none;
+	/*font-weight: bold;*/
+	padding: 0px 5px 5px 5px;
+	border-bottom: 3px solid #FFA8A8;
+}
+.pagination li span {
+	color: gray;
+	border-bottom: 3px solid gray;
+	padding: 0px 5px 5px 5px;
+}
+#prev-next a {
+	border-bottom: 0px;
+}
+time {
+	font-size: small;
+	color: #C1C1C1 ;
+	display: inline;
+}
+.image img{
+	float: left;
+	padding-right: 10px;
+}
+.user-comments {
+	padding-bottom: 30px;
+}
+.user-comments div {
+	/*display: inline-block;*/	
+	margin-bottom: 10px;
+}
+div.comment-alt {
+	clear: both;
+	margin-top: 10px;
+	margin-left: 5px;
+	overflow: hidden;
+}
+div.comment {
+	display: inline-block;
+}
+
+.tabs {
+	display: block;
+	/*overflow: hidden;*/
+	padding: 0;
+	position: relative;
+	z-index: 20;
+	
+}
+.tabs li {
+	border: 1px solid #8594B3;
+	border-radius: 7px 7px 0px 0px;
+	list-style: none;
+	float: left;
+	position: relative;
+	top: 1px;
+	margin-right: 10px;
+	margin-left: 10px;
+
+	background-color: white;
+}
+.tabs li a {
+	text-decoration: none;
+	color: blue;
+	padding: 3px 10px;
+	display: block;
+}
+div.tab-paragraph {
+	border: 1px solid #8594B3;
+	padding: 10px;
+	border-radius: 5px;
+	overflow: hidden;
+	position: relative;
+	clear: both;
+}
+.tabs li.active {
+	border-bottom: 1px solid white;
+}
