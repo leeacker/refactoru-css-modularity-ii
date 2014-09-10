@@ -1,0 +1,70 @@
+/* ADD YOUR STYLES HERE */
+.container {
+	position: relative;
+	left: 10%;
+}
+.container img {
+	display: inline-block;
+	padding: 15px;
+	float: left;
+}
+.container-alt {
+	position: relative;
+	left: 5%;
+}
+.container-alt img {
+	display: inline-block;
+	padding: 15px;
+	float: left;
+}
+.container-alt p, .container-alt ol {
+	display: inline-block;
+	padding-right: 31px;
+	padding-left: 34px;
+	padding-top: 15px;
+	float: left;
+}
+.vertical-center {
+	height: 300px;
+}
+.vertical-center img {
+	padding-top: 125px;
+}
+.vertical-center-alt {
+	height: 350px;
+}
+.vertical-center-alt div {
+	padding-top: 100px;
+}
+.horizontal-list {
+	padding: 0px;
+}
+.horizontal-list li {
+	display: inline-block;
+	float: left;
+}
+.button {
+	background-color: #FFA8A8;
+	border: 2px solid #FFA8A8;
+	border-radius: 5px;
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+}
+.buy {
+	padding: 60px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 28px;
+}
+.learn {
+	padding: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.OK {
+	padding: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 14px;
+}
